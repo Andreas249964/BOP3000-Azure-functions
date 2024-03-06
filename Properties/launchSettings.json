@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "BOP3000": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7247",
+      "launchBrowser": false
+    }
+  }
+}
