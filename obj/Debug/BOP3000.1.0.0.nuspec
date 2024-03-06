@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BOP3000</id>
+    <version>1.0.0</version>
+    <authors>BOP3000</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.ApplicationInsights.WorkerService" version="2.21.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Functions.Worker" version="1.20.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Functions.Worker.ApplicationInsights" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Functions.Worker.Extensions.Http" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.Functions.Worker.Sdk" version="1.16.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Andreas\Google Drive\Semester 6\BOP3000\Azure Functions\BOP3000\bin\Debug\net8.0\BOP3000.runtimeconfig.json" target="lib\net8.0\BOP3000.runtimeconfig.json" />
+    <file src="C:\Users\Andreas\Google Drive\Semester 6\BOP3000\Azure Functions\BOP3000\bin\Debug\net8.0\BOP3000.dll" target="lib\net8.0\BOP3000.dll" />
+  </files>
+</package>
